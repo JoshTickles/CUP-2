@@ -31,15 +31,15 @@
 		031783131F7364AE00246714 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05524F8C159B314900741F47 /* create_package.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_package.py; sourceTree = "<group>"; };
 		05524F8F159B32D600741F47 /* read_package.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = read_package.py; sourceTree = "<group>"; };
-		0596D178159AF27800B898B4 /* CreateUserPkg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateUserPkg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0596D178159AF27800B898B4 /* CUP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0596D17C159AF27800B898B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0596D17F159AF27800B898B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0596D180159AF27800B898B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0596D181159AF27800B898B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0596D184159AF27800B898B4 /* CreateUserPkg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreateUserPkg-Info.plist"; sourceTree = "<group>"; };
+		0596D184159AF27800B898B4 /* CUP2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CUP2-Info.plist"; sourceTree = "<group>"; };
 		0596D186159AF27800B898B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0596D188159AF27800B898B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0596D18A159AF27800B898B4 /* CreateUserPkg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CreateUserPkg-Prefix.pch"; sourceTree = "<group>"; };
+		0596D18A159AF27800B898B4 /* CUP2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUP2-Prefix.pch"; sourceTree = "<group>"; };
 		0596D18C159AF27800B898B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0596D18E159AF27800B898B4 /* CUPDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUPDocument.h; sourceTree = "<group>"; };
 		0596D18F159AF27800B898B4 /* CUPDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUPDocument.m; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		0596D179159AF27800B898B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0596D178159AF27800B898B4 /* CreateUserPkg.app */,
+				0596D178159AF27800B898B4 /* CUP2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 			children = (
 				05CF2A19159DEDE4004F36C8 /* dropimagehere.png */,
 				05524F8C159B314900741F47 /* create_package.py */,
-				0596D184159AF27800B898B4 /* CreateUserPkg-Info.plist */,
-				0596D18A159AF27800B898B4 /* CreateUserPkg-Prefix.pch */,
+				0596D184159AF27800B898B4 /* CUP2-Info.plist */,
+				0596D18A159AF27800B898B4 /* CUP2-Prefix.pch */,
 				0596D18B159AF27800B898B4 /* Credits.rtf */,
 				0596D185159AF27800B898B4 /* InfoPlist.strings */,
 				0596D188159AF27800B898B4 /* main.m */,
@@ -156,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0596D177159AF27800B898B4 /* CreateUserPkg */ = {
+		0596D177159AF27800B898B4 /* CUP2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0596D199159AF27800B898B4 /* Build configuration list for PBXNativeTarget "CreateUserPkg" */;
+			buildConfigurationList = 0596D199159AF27800B898B4 /* Build configuration list for PBXNativeTarget "CUP2" */;
 			buildPhases = (
 				0596D174159AF27800B898B4 /* Sources */,
 				0596D175159AF27800B898B4 /* Frameworks */,
@@ -170,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = CreateUserPkg;
+			name = CUP2;
 			productName = CreateUserPkg;
-			productReference = 0596D178159AF27800B898B4 /* CreateUserPkg.app */;
+			productReference = 0596D178159AF27800B898B4 /* CUP2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0596D172159AF27800B898B4 /* Build configuration list for PBXProject "CreateUserPkg" */;
+			buildConfigurationList = 0596D172159AF27800B898B4 /* Build configuration list for PBXProject "CUP2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0596D177159AF27800B898B4 /* CreateUserPkg */,
+				0596D177159AF27800B898B4 /* CUP2 */,
 			);
 		};
 /* End PBXProject section */
@@ -405,8 +405,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AZP65CBPR4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CreateUserPkg/CreateUserPkg-Prefix.pch";
-				INFOPLIST_FILE = "CreateUserPkg/CreateUserPkg-Info.plist";
+				GCC_PREFIX_HEADER = "CreateUserPkg/CUP2-Prefix.pch";
+				INFOPLIST_FILE = "CreateUserPkg/CUP2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = se.gu.it.CUP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,8 +428,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AZP65CBPR4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CreateUserPkg/CreateUserPkg-Prefix.pch";
-				INFOPLIST_FILE = "CreateUserPkg/CreateUserPkg-Info.plist";
+				GCC_PREFIX_HEADER = "CreateUserPkg/CUP2-Prefix.pch";
+				INFOPLIST_FILE = "CreateUserPkg/CUP2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = se.gu.it.CUP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +442,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0596D172159AF27800B898B4 /* Build configuration list for PBXProject "CreateUserPkg" */ = {
+		0596D172159AF27800B898B4 /* Build configuration list for PBXProject "CUP2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0596D197159AF27800B898B4 /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0596D199159AF27800B898B4 /* Build configuration list for PBXNativeTarget "CreateUserPkg" */ = {
+		0596D199159AF27800B898B4 /* Build configuration list for PBXNativeTarget "CUP2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0596D19A159AF27800B898B4 /* Debug */,

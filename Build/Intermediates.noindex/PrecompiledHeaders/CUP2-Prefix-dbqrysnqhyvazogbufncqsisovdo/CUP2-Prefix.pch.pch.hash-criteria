@@ -1,0 +1,27 @@
+-x
+objective-c
+-arch
+x86_64
+-std=gnu99
+-fobjc-arc
+-gmodules
+-fpascal-strings
+-O0
+-fno-common
+-DDEBUG=1
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
+-fasm-blocks
+-mmacosx-version-min=10.12
+-g
+-index-store-path
+/Users/josh/Documents/GitHub/CUP-2/Index/DataStore
+-iquote
+-iquote
+-I/Users/josh/Documents/GitHub/CUP-2/Build/Products/Debug/include
+-F/Users/josh/Documents/GitHub/CUP-2/Build/Products/Debug
+x86_64-apple-darwin17.0.0
+"4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.37)"
+SDK_PRODUCT_BUILD_VERSION=17A360
+17A360

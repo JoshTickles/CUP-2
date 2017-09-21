@@ -1,0 +1,3 @@
+#!/bin/sh
+chmod +x "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"/*.py
+
