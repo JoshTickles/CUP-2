@@ -6,6 +6,6 @@ A modified version of CreateUserPackage that incorperates changes submitted to m
 
 This is *not recommended* for professional / production use at all and this is prone to break with out warning.
 
-This is not an offical version and the builds are for my personal use only.
+This is not an offical version, the builds are for my personal use only and come with no support or warranty!.
 
 -----------
