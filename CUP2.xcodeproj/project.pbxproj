@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		031783141F7364AE00246714 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031783131F7364AE00246714 /* Images.xcassets */; };
+		03F10D611F778EF00001FA62 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F10D601F778EF00001FA62 /* Window.xib */; };
 		05524F8D159B314900741F47 /* create_package.py in Resources */ = {isa = PBXBuildFile; fileRef = 05524F8C159B314900741F47 /* create_package.py */; };
 		05524F94159B33AB00741F47 /* read_package.py in Resources */ = {isa = PBXBuildFile; fileRef = 05524F8F159B32D600741F47 /* read_package.py */; };
 		0596D17D159AF27800B898B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0596D17C159AF27800B898B4 /* Cocoa.framework */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		031783131F7364AE00246714 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03F10D601F778EF00001FA62 /* Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 		05524F8C159B314900741F47 /* create_package.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_package.py; sourceTree = "<group>"; };
 		05524F8F159B32D600741F47 /* read_package.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = read_package.py; sourceTree = "<group>"; };
 		0596D178159AF27800B898B4 /* CUP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +47,7 @@
 		0596D18F159AF27800B898B4 /* CUPDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUPDocument.m; sourceTree = "<group>"; };
 		0596D192159AF27800B898B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUPDocument.xib; sourceTree = "<group>"; };
 		0596D195159AF27800B898B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		0596D19C159AF2A200B898B4 /* CreateUserPkg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CreateUserPkg.entitlements; sourceTree = "<group>"; };
+		0596D19C159AF2A200B898B4 /* CUP2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CUP2.entitlements; sourceTree = "<group>"; };
 		05CF2A15159DE745004F36C8 /* CUPImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUPImageSelector.h; sourceTree = "<group>"; };
 		05CF2A16159DE745004F36C8 /* CUPImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUPImageSelector.m; sourceTree = "<group>"; };
 		05CF2A19159DEDE4004F36C8 /* dropimagehere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropimagehere.png; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 		0596D182159AF27800B898B4 /* CreateUserPkg */ = {
 			isa = PBXGroup;
 			children = (
-				0596D19C159AF2A200B898B4 /* CreateUserPkg.entitlements */,
+				0596D19C159AF2A200B898B4 /* CUP2.entitlements */,
 				6605E68C159B90070048362A /* CUPAppDelegate.h */,
 				6605E68D159B90070048362A /* CUPAppDelegate.m */,
 				6605E688159B86480048362A /* CUPBestHostFinder.h */,
@@ -134,6 +136,7 @@
 				0596D194159AF27800B898B4 /* MainMenu.xib */,
 				031783131F7364AE00246714 /* Images.xcassets */,
 				0596D183159AF27800B898B4 /* Supporting Files */,
+				03F10D601F778EF00001FA62 /* Window.xib */,
 			);
 			path = CreateUserPkg;
 			sourceTree = "<group>";
@@ -186,7 +189,7 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					0596D177159AF27800B898B4 = {
-						DevelopmentTeam = AZP65CBPR4;
+						DevelopmentTeam = F59PLSY68G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -218,6 +221,7 @@
 				0596D18D159AF27800B898B4 /* Credits.rtf in Resources */,
 				0596D193159AF27800B898B4 /* CUPDocument.xib in Resources */,
 				0596D196159AF27800B898B4 /* MainMenu.xib in Resources */,
+				03F10D611F778EF00001FA62 /* Window.xib in Resources */,
 				05524F8D159B314900741F47 /* create_package.py in Resources */,
 				05524F94159B33AB00741F47 /* read_package.py in Resources */,
 				05CF2A1A159DEDE4004F36C8 /* dropimagehere.png in Resources */,
@@ -398,17 +402,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = CreateUserPkg/CreateUserPkg.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_ENTITLEMENTS = CreateUserPkg/CUP2.entitlements;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AZP65CBPR4;
+				DEVELOPMENT_TEAM = F59PLSY68G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreateUserPkg/CUP2-Prefix.pch";
 				INFOPLIST_FILE = "CreateUserPkg/CUP2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = se.gu.it.CUP2;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.unicorns.CUP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -421,17 +425,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = CreateUserPkg/CreateUserPkg.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CreateUserPkg/CUP2.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AZP65CBPR4;
+				DEVELOPMENT_TEAM = F59PLSY68G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreateUserPkg/CUP2-Prefix.pch";
 				INFOPLIST_FILE = "CreateUserPkg/CUP2-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = se.gu.it.CUP2;
+				PRODUCT_BUNDLE_IDENTIFIER = nz.unicorns.CUP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
